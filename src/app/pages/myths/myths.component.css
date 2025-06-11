@@ -56,13 +56,43 @@
   border-radius: 10px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
   transition: all 0.4s ease;
+  
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
+/* 
+.myth1{
+  background-image: url('../../../../dist/myth-site/browser/assets/images/myth1.jpg');
+}
+
+.myth2{
+  background-image: url('../../../../dist/myth-site/browser/assets/images/myth2.jpg');
+}
+
+.myth3{
+  background-image: url('../../../../dist/myth-site/browser/assets/images/myth3.jpg');
+}
+
+.myth4{
+  background-image: url('../../../../dist/myth-site/browser/assets/images/myth4.jpg');
+}
+
+.myth5{
+  background-image: url('../../../../dist/myth-site/browser/assets/images/myth5.jpeg');
+}
+
+.myth6{
+  background-image: url('../../../../dist/myth-site/browser/assets/images/myth6.jpg');
+} */
 
 .myth-image img {
   width: 100%;
   height: 400px;
   object-fit: cover;
   transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .myth-section:hover .myth-image {

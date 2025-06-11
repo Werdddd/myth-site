@@ -8,7 +8,7 @@
   justify-content: center;
   color: #eaf6ff;
   overflow: hidden;
-  background-image: url('../../../assets/images/bannerbg.jpg');
+  background-image: url('../../../../dist/myth-site/browser/assets/images/bannerbg.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
