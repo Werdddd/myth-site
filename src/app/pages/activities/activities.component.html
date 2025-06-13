@@ -13,7 +13,7 @@
         <div class="image-row">
           <ng-container *ngFor="let img of getLoopedImages(activity1Images, activity1Index); let i = index">
             <img
-              [src]="'../../../assets/images/' + img"
+              [src]="'assets/images/' + img"
               [class.center]="i === 1"
               [class.blurred]="i !== 1"
               class="activity-image"
@@ -35,7 +35,7 @@
         <div class="image-row">
           <ng-container *ngFor="let img of getLoopedImages(activity2Images, activity2Index); let i = index">
             <img
-              [src]="'../../../assets/images/' + img"
+              [src]="'assets/images/' + img"
               [class.center]="i === 1"
               [class.blurred]="i !== 1"
               class="activity-image"
