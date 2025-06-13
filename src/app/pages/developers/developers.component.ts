@@ -19,16 +19,16 @@ export class DevelopersComponent {
     {
       name: 'Angel Mikka Onishi',
       title: 'Student Teacher / Developer',
-      realImage: 'assets/images/real2.jpg',
-      avatarImage: 'assets/images/avatar2.jpg',
+      realImage: 'assets/images/real3.jpg',
+      avatarImage: 'assets/images/avatar3.jpg',
       bio: 'Hello! I’m Angel Onishi, a student educator pursuing a Bachelor’s degree in Secondary Education, majoring in English, at the Polytechnic University of the Philippines (PUP). My love for literature aligns with my passion to accessible education. This website reflects my commitment to inclusive education by offering flexible materials for diverse learners. I aim to create a space where students can explore at their own pace, encouraging independence, curiosity, and a deeper connection to learning through stories that inspire.',
       bioNote: 'Angel is passionate about teaching and full-stack development.'
     },
     {
       name: 'Hazel Anne Miranda',
       title: 'Student Teacher / Developer',
-      realImage: 'assets/images/real3.jpg',
-    avatarImage: 'assets/images/avatar3.jpg',
+      realImage: 'assets/images/real2.jpg',
+    avatarImage: 'assets/images/avatar2.jpg',
       bio: 'I’m Hazel Miranda, a student educator taking up a Bachelor’s degree in Secondary Education major in English at the Polytechnic University of the Philippines (PUP). As a proud iskolar ng bayan with a deep passion for literature, I created this educational website on creation mythology. Through this platform, I aim to spark curiosity, encourage critical thinking, and promote a deeper appreciation for world cultures, stories, and the timeless power of myth and literature.',
       bioNote: 'Hazel focuses on front-end and UX design.'
     },
