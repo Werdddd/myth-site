@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  background-color: #003366;
+  color: white;
+  font-family: 'MythicFont', serif;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #fff;
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.8rem;
+    color: #fff;
+
+    li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      
+    }
+  }
+.nav-link{
+  color: #fff;
+}
+  .navbar-brand{
+    font-family: 'MythicFont', serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #fff;
+  }
+}

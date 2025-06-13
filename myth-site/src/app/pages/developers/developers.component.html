@@ -1,0 +1,20 @@
+<app-navbar></app-navbar>
+
+<div class="developers-container">
+  <div class="container py-5">
+    <h1 class="text-center mb-5">DEVELOPERS</h1>
+
+    <div class="team-grid">
+      <div class="team-member" *ngFor="let member of teamMembers">
+        <div class="image-container">
+          <img [src]="member.realImage" alt="{{ member.name }}" class="main-image" />
+          <img [src]="member.avatarImage" alt="{{ member.name }} Avatar" class="hover-image" />
+        </div>
+        <h3>{{ member.name }}</h3>
+        <p class="bio">{{ member.bio }}</p> <!-- SHORT bio -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>
